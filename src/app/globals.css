@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@theme {
+  /* Palette extraite du guide papier */
+  --color-terracotta: #a85434;
+  --color-terracotta-dark: #8a422a;
+  --color-olive: #75763c;
+  --color-cream: #fbf9f5;
+  --color-sand: #f1ebe3;
+  --color-ink: #1f1d1b;
+  --color-ink-muted: #6b655f;
+
+  /* Typographie */
+  --font-display: var(--font-jost), sans-serif;
+  --font-body: var(--font-inter), sans-serif;
+
+  /* Motion */
+  --ease-smooth: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: var(--color-terracotta);
+  color: var(--color-cream);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-terracotta);
+  outline-offset: 3px;
+}
+
+/* Kicker éditorial : majuscules très espacées, façon guide papier */
+.kicker {
+  font-family: var(--font-display);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-size: 0.75rem;
+}
+
+/* Séparateur pointillé terracotta, signature graphique du guide */
+.dotted-rule {
+  border: none;
+  border-top: 2px dotted var(--color-terracotta);
+  opacity: 0.6;
+}
+
+/* Texte justifié des blocs longs, comme la maquette print */
+.prose-justify {
+  text-align: justify;
+  hyphens: auto;
+  line-height: 1.85;
+}
+
+/* Bandeau plein terracotta, texte blanc espacé */
+.band {
+  background-color: var(--color-terracotta);
+  color: var(--color-cream);
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
+
+/* Masque le scrollbar du carrousel sans casser le scroll */
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Le curseur personnalisé remplace le curseur natif sur pointeur fin */
+@media (pointer: fine) {
+  .custom-cursor-active,
+  .custom-cursor-active a,
+  .custom-cursor-active button {
+    cursor: none;
+  }
+}
