@@ -16,7 +16,7 @@ export const site = {
 };
 
 export const guide = {
-  kicker: "Édition 2026 — gratuite",
+  kicker: "Édition 2026, gratuite",
   title: "Emportez le Burundi avec vous",
   pitch:
     "Réalisé bénévolement par un collectif d'expatriés et de résidents qui ont sillonné le pays, ce guide de 60 pages rassemble itinéraires testés, bonnes adresses, cartes, circuits de randonnée et repères culturels. Ici, pas de clichés touristiques : une plongée dans l'âme d'un pays attachant.",

@@ -27,7 +27,7 @@ export const experiences: Experience[] = [
     title: "Randonnées sur la crête",
     tag: "Aventure",
     description:
-      "Des boucles familiales du campus Kiriri à la grande traversée Bujumbura–Ijenda (34 km), en passant par les sentiers de Teza entre théiers et forêt de la Kibira.",
+      "Des boucles familiales du campus Kiriri à la grande traversée Bujumbura-Ijenda (34 km), en passant par les sentiers de Teza entre théiers et forêt de la Kibira.",
   },
   {
     number: "04",
@@ -48,7 +48,7 @@ export const experiences: Experience[] = [
     title: "Les tambours sacrés",
     tag: "Culture",
     description:
-      "À Gishora, la danse rituelle du tambour royal — inscrite à l'UNESCO — se vit plus qu'elle ne se décrit : vibrations profondes, acrobaties et des siècles d'histoire royale.",
+      "À Gishora, la danse rituelle du tambour royal (inscrite à l'UNESCO) se vit plus qu'elle ne se décrit : vibrations profondes, acrobaties et des siècles d'histoire royale.",
   },
   {
     number: "07",
@@ -62,6 +62,6 @@ export const experiences: Experience[] = [
     title: "La gastronomie locale",
     tag: "Saveurs",
     description:
-      "Mukeke grillé du lac, brochettes au feu de bois, buffets traditionnels et jus d'ananas maison — sans oublier la fameuse question locale : votre bière, « chaude ou froide » ?",
+      "Mukeke grillé du lac, brochettes au feu de bois, buffets traditionnels et jus d'ananas maison, sans oublier la fameuse question locale : votre bière, « chaude ou froide » ?",
   },
 ];

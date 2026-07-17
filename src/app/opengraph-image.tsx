@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "Burundi — Guide de voyage. Expériences authentiques au cœur de l'Afrique.";
+export const alt = "Guide de voyage Burundi. Expériences authentiques au cœur de l'Afrique.";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 

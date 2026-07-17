@@ -33,7 +33,7 @@ export function Practical() {
           kicker="Carnet pratique"
           title="Avant de partir"
           number="04"
-          lead="L'essentiel pour préparer votre voyage sereinement — le guide PDF détaille chaque point avec adresses et budgets."
+          lead="L'essentiel pour préparer votre voyage sereinement. Le guide PDF détaille chaque point avec adresses et budgets."
         />
 
         <div className="mt-14 grid grid-cols-1 gap-x-10 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">

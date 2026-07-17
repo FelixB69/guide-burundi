@@ -62,7 +62,7 @@ export function Why() {
             ))}
             <Reveal delay={0.3}>
               <hr className="dotted-rule mt-10" />
-              <p className="kicker mt-6 text-olive">Amahoro — ici, on se salue par la paix</p>
+              <p className="kicker mt-6 text-olive">Amahoro : ici, on se salue par la paix</p>
             </Reveal>
           </div>
 

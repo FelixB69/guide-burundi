@@ -21,7 +21,7 @@ const siteUrl = "https://guide-burundi.vercel.app"; // TODO: remplacer par le do
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Burundi — Guide de voyage | Expériences authentiques au cœur de l'Afrique",
+  title: "Guide de voyage Burundi | Expériences authentiques au cœur de l'Afrique",
   description:
     "Découvrez le Burundi : le lac Tanganyika, les forêts de la Kibira, les tambourinaires de Gishora et la source du Nil. Téléchargez gratuitement le guide de voyage complet (édition 2026, PDF), réalisé par un collectif d'expatriés et de résidents.",
   authors: [{ name: "Le collectif du Guide Burundi" }],
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     "Afrique de l'Est",
   ],
   openGraph: {
-    title: "Burundi — Guide de voyage",
+    title: "Guide de voyage Burundi",
     description:
       "Expériences authentiques au cœur de l'Afrique. Téléchargez le guide de voyage complet en PDF.",
     url: siteUrl,
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Burundi — Guide de voyage",
+    title: "Guide de voyage Burundi",
     description:
       "Expériences authentiques au cœur de l'Afrique. Téléchargez le guide de voyage complet en PDF.",
   },

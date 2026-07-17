@@ -94,7 +94,7 @@ export function Destinations() {
           kicker="Les incontournables"
           title="Destinations"
           number="02"
-          lead="Onze lieux qui racontent le pays : du bouillonnement de Bujumbura aux savanes de la Ruvubu, chaque étape porte un numéro — comme un chapitre du guide."
+          lead="Onze lieux qui racontent le pays : du bouillonnement de Bujumbura aux savanes de la Ruvubu, chaque étape porte un numéro, comme un chapitre du guide."
         />
 
         <div className="mt-14 grid auto-rows-[240px] grid-cols-1 gap-4 grid-flow-dense md:grid-cols-4 md:auto-rows-[220px]">

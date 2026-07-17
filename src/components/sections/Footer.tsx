@@ -52,7 +52,7 @@ export function Footer() {
 
         <div className="mt-6 flex flex-col items-center justify-between gap-3 text-xs text-ink-muted md:flex-row">
           <p>
-            © {new Date().getFullYear()} Guide de voyage Burundi, édition 2026 — ISBN
+            © {new Date().getFullYear()} Guide de voyage Burundi, édition 2026, ISBN
             979-10-983862-0-6.
           </p>
           <p>

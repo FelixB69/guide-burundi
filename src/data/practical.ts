@@ -55,6 +55,6 @@ export const practicalInfos: PracticalInfo[] = [
   {
     icon: "wifi",
     title: "Connectivité",
-    text: "Cartes SIM locales économiques ; le Wi-Fi reste aléatoire hors des grandes villes — un charme de plus pour déconnecter.",
+    text: "Cartes SIM locales économiques ; le Wi-Fi reste aléatoire hors des grandes villes, un charme de plus pour déconnecter.",
   },
 ];

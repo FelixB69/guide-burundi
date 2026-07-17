@@ -65,7 +65,7 @@ export const destinations: Destination[] = [
     name: "Chutes de la Karera",
     region: "Hauts-lieux de Rutana",
     description:
-      "Cinq cascades étagées — la plus grande tombe de 46 mètres — reliées par un labyrinthe de sentiers forestiers et un pont suspendu au-dessus de la chute principale.",
+      "Cinq cascades étagées (la plus grande tombe de 46 mètres), reliées par un labyrinthe de sentiers forestiers et un pont suspendu au-dessus de la chute principale.",
     image: "/images/karera.jpg",
     alt: "Cascades de la Karera dans la végétation tropicale",
     size: "tall",
@@ -75,7 +75,7 @@ export const destinations: Destination[] = [
     name: "Parc national de la Rusizi",
     region: "À 15 km de Bujumbura",
     description:
-      "Hippopotames, crocodiles du Nil et plus de 200 espèces d'oiseaux dans le delta et la palmeraie de la Rusizi — l'échappée nature la plus accessible depuis la capitale.",
+      "Hippopotames, crocodiles du Nil et plus de 200 espèces d'oiseaux dans le delta et la palmeraie de la Rusizi, l'échappée nature la plus accessible depuis la capitale.",
     image: "/images/rusizi.jpg",
     alt: "Hippopotame dans la rivière Rusizi",
     size: "normal",
@@ -85,7 +85,7 @@ export const destinations: Destination[] = [
     name: "Tambourinaires de Gishora",
     region: "Patrimoine UNESCO",
     description:
-      "Sur le champ royal fondé par le mwami Ntare Rugamba, la danse rituelle du tambour royal — inscrite à l'UNESCO en 2014 — fait vibrer la terre entière.",
+      "Sur le champ royal fondé par le mwami Ntare Rugamba, la danse rituelle du tambour royal (inscrite à l'UNESCO en 2014) fait vibrer la terre entière.",
     image: "/images/gishora.jpg",
     alt: "Tambourinaires de Gishora en pleine performance",
     size: "wide",
@@ -105,7 +105,7 @@ export const destinations: Destination[] = [
     name: "Lac aux oiseaux",
     region: "Kirundo, au nord du pays",
     description:
-      "425 hectares de sanctuaire pour une vingtaine d'espèces migratrices — pélicans, aigrettes, martins-pêcheurs — et un miroir cuivré au crépuscule.",
+      "425 hectares de sanctuaire pour une vingtaine d'espèces migratrices (pélicans, aigrettes, martins-pêcheurs) et un miroir cuivré au crépuscule.",
     image: "/images/lac-aux-oiseaux.jpg",
     alt: "Palmiers et nénuphars au bord du lac aux oiseaux",
     size: "wide",

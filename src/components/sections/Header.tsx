@@ -36,7 +36,7 @@ export function Header() {
           className={`font-display text-xl font-bold tracking-[0.3em] ${
             solid ? "text-terracotta" : "text-cream"
           }`}
-          aria-label="Burundi — retour en haut de page"
+          aria-label="Burundi, retour en haut de page"
         >
           BURUNDI
         </Link>
