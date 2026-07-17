@@ -21,7 +21,8 @@
       "Bash(git commit -m ' *)",
       "Bash(gh repo *)",
       "Bash(./node_modules/.bin/tsc --noEmit)",
-      "Bash(grep -iE \"^\\(typescript|eslint\\)$\")"
+      "Bash(grep -iE \"^\\(typescript|eslint\\)$\")",
+      "Bash(python3 -c \"import PIL; print\\(PIL.__version__\\)\")"
     ]
   }
 }

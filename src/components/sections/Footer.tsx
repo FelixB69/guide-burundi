@@ -60,6 +60,18 @@ export function Footer() {
             commercial interdits sans accord écrit.
           </p>
         </div>
+
+        <p className="mt-4 text-center text-xs text-ink-muted">
+          Site créé par{" "}
+          <a
+            href="https://www.felixberger.fr"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-terracotta transition-colors duration-300 hover:text-ink"
+          >
+            Félix Berger
+          </a>
+        </p>
       </div>
     </footer>
   );
