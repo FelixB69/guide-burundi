@@ -1,8 +1,8 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import { motion, useMotionValue, useReducedMotion, useSpring } from "motion/react";
-import { Check, Download } from "lucide-react";
+import { Download } from "lucide-react";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
 import { SmartImage } from "@/components/ui/SmartImage";
@@ -58,17 +58,6 @@ function CoverMockup() {
 
 /** Section téléchargement : fond terracotta, mockup 3D, chapitres et bouton PDF. */
 export function DownloadGuide() {
-  const [email, setEmail] = useState("");
-  const [emailSaved, setEmailSaved] = useState(false);
-
-  const onDownloadClick = () => {
-    // Le téléchargement fonctionne toujours, avec ou sans email.
-    if (email.trim()) {
-      // TODO: brancher un service d'emailing (Brevo, Mailchimp…) pour enregistrer l'adresse.
-      setEmailSaved(true);
-    }
-  };
-
   return (
     <section id="telecharger" className="scroll-mt-20 bg-terracotta">
       <div className="mx-auto grid max-w-7xl gap-14 px-5 py-20 md:px-8 md:py-28 lg:grid-cols-[1fr_1.2fr] lg:items-center">
@@ -102,38 +91,18 @@ export function DownloadGuide() {
           </Reveal>
 
           <Reveal delay={0.3}>
-            <div className="mt-10 flex flex-col gap-3 sm:flex-row">
-              <label htmlFor="email-guide" className="sr-only">
-                Votre email (facultatif) pour recevoir les mises à jour du guide
-              </label>
-              <input
-                id="email-guide"
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="Votre email (facultatif)"
-                autoComplete="email"
-                className="flex-1 border border-cream/40 bg-terracotta-dark/40 px-5 py-4 text-cream placeholder:text-cream/60 focus:border-cream"
-              />
+            <div className="mt-10">
               <a
                 href={site.pdfPath}
                 download={site.pdfFileName}
-                onClick={onDownloadClick}
                 className="flex items-center justify-center gap-3 bg-cream px-8 py-4 font-display text-sm font-bold tracking-[0.2em] text-terracotta uppercase transition-colors duration-300 hover:bg-sand"
               >
                 <Download size={18} aria-hidden="true" />
                 Télécharger le guide
               </a>
             </div>
-            <p className="mt-3 flex items-center gap-2 text-xs text-cream/70" role="status">
-              {emailSaved ? (
-                <>
-                  <Check size={14} aria-hidden="true" />
-                  Merci ! Vous recevrez les prochaines éditions du guide.
-                </>
-              ) : (
-                "PDF gratuit, sans inscription. L'email sert uniquement à vous prévenir des mises à jour."
-              )}
+            <p className="mt-3 text-xs text-cream/70">
+              PDF gratuit, sans inscription.
             </p>
           </Reveal>
         </div>
