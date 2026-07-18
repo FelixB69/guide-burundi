@@ -25,7 +25,7 @@ export function Hero() {
     <section ref={sectionRef} id="top" className="relative h-svh min-h-[600px] overflow-hidden">
       <motion.div className="absolute inset-0 will-change-transform" style={{ y: imageY }}>
         <SmartImage
-          src="/images/hero.jpg"
+          src="/images/hero.webp"
           alt="Collines cultivées du Burundi au lever du soleil"
           fill
           priority

@@ -34,7 +34,7 @@ la couverture du mockup :
 
 ```bash
 sips -s format jpeg -s formatOptions 85 --resampleWidth 1200 \
-  public/guide-burundi.pdf --out public/images/couverture-guide.jpg
+  public/guide-burundi.pdf --out public/images/couverture-guide.webp
 ```
 
 Le champ email de la section téléchargement est purement client-side : un `TODO` dans
@@ -49,17 +49,17 @@ indique la photo du guide qui convient (mêmes auteurs, réutilisable).
 
 | Fichier | Ratio | Sujet | Page du PDF |
 | --- | --- | --- | --- |
-| `hero.jpg` | 16:9 (paysage large) | Collines cultivées | 1 (photo du bas de la couverture) |
-| `pourquoi-collines.jpg` | 3:4 (portrait) | Collines et rizières | 5 |
-| `bujumbura.jpg` | ~1:1 | Ville entre lac et montagnes | 8 |
-| `tanganyika.jpg` | ~2:1 (panoramique) | Village de pêcheurs, barques | 38 |
-| `kibira.jpg` | ~1:2 (portrait haut) | Mer de thé de Teza | 24 |
-| `karera.jpg` | ~1:2 (portrait haut) | Cascade ou pont suspendu | 41 (ou 39) |
-| `rusizi.jpg` | ~1:1 | Hippopotame du delta | 19 (ou crocodile p. 18) |
-| `gishora.jpg` | ~2:1 (panoramique) | Tambourinaires de Gishora | 59 (haut gauche) ou 28 |
-| `bururi.jpg` | ~1:1 | Chimpanzé en forêt | 42 |
-| `lac-aux-oiseaux.jpg` | ~2:1 (panoramique) | Palmiers et nénuphars | 45 |
-| `couverture-guide.jpg` | 3:4 (portrait) | Déjà générée depuis la page 1 du PDF | — |
+| `hero.webp` | 16:9 (paysage large) | Collines cultivées | 1 (photo du bas de la couverture) |
+| `pourquoi-collines.webp` | 3:4 (portrait) | Collines et rizières | 5 |
+| `bujumbura.webp` | ~1:1 | Ville entre lac et montagnes | 8 |
+| `tanganyika.webp` | ~2:1 (panoramique) | Village de pêcheurs, barques | 38 |
+| `kibira.webp` | ~1:2 (portrait haut) | Mer de thé de Teza | 24 |
+| `karera.webp` | ~1:2 (portrait haut) | Cascade ou pont suspendu | 41 (ou 39) |
+| `rusizi.webp` | ~1:1 | Hippopotame du delta | 19 (ou crocodile p. 18) |
+| `gishora.webp` | ~2:1 (panoramique) | Tambourinaires de Gishora | 59 (haut gauche) ou 28 |
+| `bururi.webp` | ~1:1 | Chimpanzé en forêt | 42 |
+| `lac-aux-oiseaux.webp` | ~2:1 (panoramique) | Palmiers et nénuphars | 45 |
+| `couverture-guide.webp` | 3:4 (portrait) | Déjà générée depuis la page 1 du PDF | — |
 
 Les autres emplacements n'utilisent volontairement pas de photo : les cartes du carrousel
 Expériences sont des fiches typographiques, et Gitega, la source du Nil et le parc de la

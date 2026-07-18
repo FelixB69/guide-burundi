@@ -43,7 +43,7 @@ export const why = {
     "Ce guide est né de l'expérience collective d'un groupe d'amis expatriés et de résidents qui ont sillonné le Burundi, découvert son histoire, séjourné dans ses hôtels et goûté à ses restaurants. Pas de prétention d'exhaustivité, mais des expériences partagées, des découvertes inattendues et l'envie de donner à votre premier voyage le goût d'un retour.",
   ],
   image: {
-    src: "/images/pourquoi-collines.jpg",
+    src: "/images/pourquoi-collines.webp",
     alt: "Collines cultivées en terrasses du Burundi",
   },
 };

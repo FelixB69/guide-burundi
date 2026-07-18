@@ -20,7 +20,7 @@ export const destinations: Destination[] = [
     region: "Capitale économique",
     description:
       "Entre lac et montagnes, la ville cultive une âme singulière : marchés animés, patrimoine moderniste tropical et couchers de soleil féeriques sur le Tanganyika.",
-    image: "/images/bujumbura.jpg",
+    image: "/images/bujumbura.webp",
     alt: "Vue de Bujumbura entre le lac Tanganyika et les montagnes",
     size: "large",
   },
@@ -30,7 +30,7 @@ export const destinations: Destination[] = [
     region: "Nord de Rumonge",
     description:
       "Le plus long lac d'eau douce d'Afrique et le deuxième plus profond du monde. Au nord de Rumonge, plages de sable doré, baignade et sorties en bateau.",
-    image: "/images/tanganyika.jpg",
+    image: "/images/tanganyika.webp",
     alt: "Plage bordée de palmiers au bord du lac Tanganyika",
     size: "wide",
   },
@@ -48,7 +48,7 @@ export const destinations: Destination[] = [
     region: "Teza et la crête Congo-Nil",
     description:
       "40 000 hectares de forêts de montagne, refuge des chimpanzés et des colobes, bordés par la mer de verdure des plantations de thé de Teza.",
-    image: "/images/kibira.jpg",
+    image: "/images/kibira.webp",
     alt: "Plantations de thé de Teza en lisière de la forêt de la Kibira",
     size: "tall",
   },
@@ -66,7 +66,7 @@ export const destinations: Destination[] = [
     region: "Hauts-lieux de Rutana",
     description:
       "Cinq cascades étagées (la plus grande tombe de 46 mètres), reliées par un labyrinthe de sentiers forestiers et un pont suspendu au-dessus de la chute principale.",
-    image: "/images/karera.jpg",
+    image: "/images/karera.webp",
     alt: "Cascades de la Karera dans la végétation tropicale",
     size: "tall",
   },
@@ -76,7 +76,7 @@ export const destinations: Destination[] = [
     region: "À 15 km de Bujumbura",
     description:
       "Hippopotames, crocodiles du Nil et plus de 200 espèces d'oiseaux dans le delta et la palmeraie de la Rusizi, l'échappée nature la plus accessible depuis la capitale.",
-    image: "/images/rusizi.jpg",
+    image: "/images/rusizi.webp",
     alt: "Hippopotame dans la rivière Rusizi",
     size: "normal",
   },
@@ -86,7 +86,7 @@ export const destinations: Destination[] = [
     region: "Patrimoine UNESCO",
     description:
       "Sur le champ royal fondé par le mwami Ntare Rugamba, la danse rituelle du tambour royal (inscrite à l'UNESCO en 2014) fait vibrer la terre entière.",
-    image: "/images/gishora.jpg",
+    image: "/images/gishora.webp",
     alt: "Tambourinaires de Gishora en pleine performance",
     size: "wide",
   },
@@ -96,7 +96,7 @@ export const destinations: Destination[] = [
     region: "Trek des chimpanzés",
     description:
       "L'un des rares lieux d'Afrique de l'Est où tenter un trek à la recherche des chimpanzés : une aventure brute, sans garantie, au cœur d'une forêt préservée.",
-    image: "/images/bururi.jpg",
+    image: "/images/bururi.webp",
     alt: "Chimpanzé dans la forêt de Bururi",
     size: "normal",
   },
@@ -106,7 +106,7 @@ export const destinations: Destination[] = [
     region: "Kirundo, au nord du pays",
     description:
       "425 hectares de sanctuaire pour une vingtaine d'espèces migratrices (pélicans, aigrettes, martins-pêcheurs) et un miroir cuivré au crépuscule.",
-    image: "/images/lac-aux-oiseaux.jpg",
+    image: "/images/lac-aux-oiseaux.webp",
     alt: "Palmiers et nénuphars au bord du lac aux oiseaux",
     size: "wide",
   },
