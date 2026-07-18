@@ -1,7 +1,7 @@
 /* Contenu aligné sur le sommaire du guide de voyage Burundi — édition 2026 */
 
 export type Destination = {
-  /** Numéro façon page de guide, affiché dans le badge carré */
+  /** Numéro du chapitre du guide où figure ce lieu (sommaire officiel), affiché dans le badge carré */
   number: string;
   name: string;
   region: string;
@@ -15,7 +15,7 @@ export type Destination = {
 
 export const destinations: Destination[] = [
   {
-    number: "01",
+    number: "02",
     name: "Bujumbura",
     region: "Capitale économique",
     description:
@@ -25,7 +25,7 @@ export const destinations: Destination[] = [
     size: "large",
   },
   {
-    number: "02",
+    number: "07",
     name: "Lac Tanganyika",
     region: "Nord de Rumonge",
     description:
@@ -35,7 +35,7 @@ export const destinations: Destination[] = [
     size: "wide",
   },
   {
-    number: "03",
+    number: "05",
     name: "Gitega",
     region: "Capitale politique",
     description:
@@ -45,7 +45,7 @@ export const destinations: Destination[] = [
   {
     number: "04",
     name: "Parc national de la Kibira",
-    region: "Teza et la crête Congo-Nil",
+    region: "Bugarama et Teza, crête Congo-Nil",
     description:
       "40 000 hectares de forêts de montagne, refuge des chimpanzés et des colobes, bordés par la mer de verdure des plantations de thé de Teza.",
     image: "/images/kibira.webp",
@@ -53,15 +53,15 @@ export const destinations: Destination[] = [
     size: "tall",
   },
   {
-    number: "05",
+    number: "09",
     name: "Source du Nil",
-    region: "Mont Kikizi, près de Rutovu",
+    region: "Mont Kikizi, à 40 km de Bururi",
     description:
       "La source la plus méridionale du Nil blanc, identifiée en 1934 par Burckhardt Waldecker et marquée d'une pyramide portant l'inscription Caput Nili.",
     size: "normal",
   },
   {
-    number: "06",
+    number: "08",
     name: "Chutes de la Karera",
     region: "Hauts-lieux de Rutana",
     description:
@@ -71,7 +71,7 @@ export const destinations: Destination[] = [
     size: "tall",
   },
   {
-    number: "07",
+    number: "03",
     name: "Parc national de la Rusizi",
     region: "À 15 km de Bujumbura",
     description:
@@ -81,7 +81,7 @@ export const destinations: Destination[] = [
     size: "normal",
   },
   {
-    number: "08",
+    number: "05",
     name: "Tambourinaires de Gishora",
     region: "Patrimoine UNESCO",
     description:

@@ -99,7 +99,7 @@ export function Destinations() {
 
         <div className="mt-14 grid auto-rows-[240px] grid-cols-1 gap-4 grid-flow-dense md:grid-cols-4 md:auto-rows-[220px]">
           {destinations.map((destination, i) => (
-            <DestinationCard key={destination.number} destination={destination} index={i} />
+            <DestinationCard key={destination.name} destination={destination} index={i} />
           ))}
         </div>
       </div>
